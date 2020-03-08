@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: WH
 title: "Example Content"
 author: "Chester"
 ---

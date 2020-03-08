@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: WH
 title:  "Introducing Tale"
 author: "Chester"
 comments: true

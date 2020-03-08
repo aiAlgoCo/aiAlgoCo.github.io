@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: SW
 title: "The Mystery of the Filler Post"
 author: "Chester"
 ---
