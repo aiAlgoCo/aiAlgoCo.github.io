@@ -1,5 +1,5 @@
 ---
-layout: WH
+layout: default
 title:  "Introducing Tale"
 author: "Chester"
 comments: true

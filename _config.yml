@@ -32,10 +32,20 @@ plugins:
 
 # Permalinks
 permalink:      /:year-:month-:day/:title
-paginate:       5
+paginate:       10
 
 # Excludes
 exclude: [ Gemfile, Gemfile.lock, tale.gemspec ]
 
 # Disqus (Set to your disqus id)
 disqus:         jekyll-tale
+
+collections:
+  sw:
+    output: true
+    permalink: /sw/:path/
+  wh:
+    output: true
+    permalink: /wh/:path/
+
+

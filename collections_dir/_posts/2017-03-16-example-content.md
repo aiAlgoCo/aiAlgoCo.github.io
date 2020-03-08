@@ -1,5 +1,5 @@
 ---
-layout: WH
+layout: default
 title: "Example Content"
 author: "Chester"
 ---
