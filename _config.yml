@@ -1,5 +1,5 @@
 # Site settings
-title:          Tale
+title:          AI algorithm Co
 description:    "Minimal Jekyll theme for storytellers"
 baseurl:        ""
 url:            "https://aialgoco.github.io"
@@ -9,9 +9,9 @@ url:            "https://aialgoco.github.io"
 
 # Author
 author:
-  name:         Chester How
-  url:          https://chester.how
-  email:        chesterhow@gmail.com
+  name:         AI algorithm Co
+  url:          https://aialgoco.github.io
+  email:        ai.algorithm.co@gmail.com
 
 # Build settings
 markdown:       kramdown
@@ -26,13 +26,24 @@ sass:
 # Gems
 plugins:
   - jekyll-feed
-  - jekyll-paginate
+  - jekyll-paginate-v2
   - jekyll-seo-tag
   # - jemoji #Uncomment this to allow emoji in your post
 
 # Permalinks
 permalink:      /:year-:month-:day/:title
-paginate:       10
+
+pagination:
+  enabled: true
+  per_gage: 5
+  permalink: '/:num/'
+  sort_field: 'date'
+  sort_reverse: true
+  title: ':title'
+  trail:
+    before: 2
+    after: 2
+
 
 # Excludes
 exclude: [ Gemfile, Gemfile.lock, tale.gemspec ]
@@ -42,10 +53,26 @@ disqus:         jekyll-tale
 
 collections:
   sw:
-    output: true
+    output: ture
     permalink: /sw/:path/
   wh:
     output: true
     permalink: /wh/:path/
 
 
+#autopages:
+#  enabled: true
+#  tags:
+#    layouts:
+#      - autopage_collections_tags.html
+#     # - autopage_tags.html
+#    enabled: true
+#  categories:
+#    layouts:
+#      - autopage_cat.html
+#    enabled: true
+#  collections:
+#    enabled: true
+#    slugify:
+#      mode: 'ascii'
+#      cased: true  # Causes B+W tag to show up as it is written on the terry-pratchet-diary-2017.md page and not lowercase
